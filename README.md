@@ -28,16 +28,8 @@ Modal de contacto, activado desde el botón “Contáctame”.
 
 
 Carousel en Proyectos (INOXSON y Programa Delfín) para navegar capturas.
+<img width="1722" height="653" alt="image" src="https://github.com/user-attachments/assets/b366c037-6192-4035-99ab-4dac91f65135" />
 
-<div id="carouselInoxson" class="carousel slide" data-bs-ride="carousel" aria-label="Capturas INOXSON">
-  <div class="carousel-inner">
-    <div class="carousel-item active"><img src="./img/p1f1.png" class="d-block w-100" alt="..."></div>
-    <div class="carousel-item"><img src="./img/p1f2.png" class="d-block w-100" alt="..."></div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselInoxson" data-bs-slide="prev" aria-label="Anterior">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  </button>
-</div>
 
 
 Tooltip en badges de habilidades/idiomas (p.ej., nivel de inglés).
