@@ -1,0 +1,72 @@
+/* ===== Bootstrap Theme Overrides (neutro profesional) ===== */
+
+:root {
+    --bs-primary: #2c7a7b;
+    /* teal oscuro */
+    --bs-primary-rgb: 44, 122, 123;
+    --bs-secondary: #6c757d;
+    /* gris */
+    --bs-success: #2f855a;
+    /* verde sobrio */
+    --bs-info: #0ea5e9;
+    /* azul info */
+    --bs-warning: #d97706;
+    /* ámbar */
+    --bs-danger: #b91c1c;
+    /* rojo oscuro */
+    --bs-dark: #121212;
+    --bs-body-bg: #0f0f10;
+    /* fondo general */
+    --bs-body-color: #e9e9e9;
+    /* texto general */
+}
+
+.bg-gradient-gray {
+    background: linear-gradient(135deg, rgba(0, 0, 0, .85), rgba(20, 20, 20, .85)), url('./img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.lead-600 {
+    font-weight: 600;
+}
+
+.profile-photo {
+    object-fit: cover;
+}
+
+:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+}
+
+.card,
+.rounded-4 {
+    border-radius: 1rem;
+}
+
+.carousel-item>img {
+    aspect-ratio: 16/9;
+}
+
+
+/* Imprimir: mostrar sección Antes/Después y fondos blancos */
+
+@media print {
+    body {
+        background: #fff !important;
+        color: #000 !important;
+    }
+    .bg-body-tertiary,
+    .bg-dark-subtle,
+    .bg-gradient-gray {
+        background: #fff !important;
+    }
+    #before-after {
+        display: block !important;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+        font-size: .85em;
+    }
+}
