@@ -1,3 +1,5 @@
+Equipo: Vallejo Leyva Marcos & Casas Gastelum Ana Cecilia
+
 ACTIVIDAD 10 - MEJORAS CV CON BOOTSTRAP
 
 Grid responsive
